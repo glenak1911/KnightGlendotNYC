@@ -1,0 +1,25 @@
+header .socialMedia {
+		text-align: center;
+		padding-top: 0;
+	}
+
+header .socialMedia a {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	text-indent: -999em;
+	-webkit-transform: scale(0.5, 0.5);
+	transform: scale(0.5, 0.5);
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+	border: 0;
+
+	-webkit-transition: all .2s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition: all .2s ease-in-out;
+		}
+
+header .socialMedia a.twitter  { background-image: url(../img/twitter.png); }
+header .socialMedia a.linkedin { background-image: url(../img/linkedin.png); }
+header .socialMedia a.email    { background-image: url(../img/mail.png); }
+header .socialMedia a.github   { background-image: url(../img/github.png); }
