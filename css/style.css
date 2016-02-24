@@ -1,6 +1,24 @@
+
+body {
+	color: #444948;
+	font: normal 16px/24px "ProximaNovaLight", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header{
+	background: #f4f3f3 url(../img/skyline.jpg) no-repeat center top fixed;
+	}
+
+header .avatar {
+	display: block;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+	}
+
 header .socialMedia {
-		text-align: center;
-		padding-top: 0;
+	text-align: center;
+	padding-top: 0;
 	}
 
 header .socialMedia a {
@@ -17,9 +35,20 @@ header .socialMedia a {
 
 	-webkit-transition: all .2s ease-in-out; /* For Safari 3.1 to 6.0 */
     transition: all .2s ease-in-out;
-		}
+	}
 
-header .socialMedia a.twitter  { background-image: url(../img/twitter.png); }
-header .socialMedia a.linkedin { background-image: url(../img/linkedin.png); }
-header .socialMedia a.email    { background-image: url(../img/mail.png); }
-header .socialMedia a.github   { background-image: url(../img/github.png); }
+header .socialMedia a.twitter  { 
+	background-image: url(../img/twitter.png); 
+	}
+
+header .socialMedia a.linkedin { 
+	background-image: url(../img/linkedin.png); 
+	}
+
+header .socialMedia a.email    { 
+	background-image: url(../img/mail.png); 
+	}
+
+header .socialMedia a.github   { 
+	background-image: url(../img/github.png); 
+	}
