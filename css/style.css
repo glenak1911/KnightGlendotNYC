@@ -20,7 +20,8 @@ header{
 
 header h1.headerIntro{
 	font-family: aDrippingMarker;
-	font-size: 200%;
+	font-size: 80px;
+	color: #99ff33;
 }
 
 header .avatar {
@@ -68,3 +69,21 @@ header .socialMedia a.github   {
 	background-image: url(../img/github.png); 
 	}
 
+.BioContainer {
+	display: inline-block;
+	text-align:center;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 25px;
+	height: 400px;
+	width: 400px;
+	}
+	
+.BioImage {
+	height:300px;
+	width:300px;
+	}
+
+.headerSpan {
+	color: #99ff33;
+	}
