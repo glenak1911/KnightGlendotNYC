@@ -1,28 +1,47 @@
 @font-face{
 	font-family:aDrippingMarker;
 	src: url(../fonts/adrip1.ttf);	
-}
+	}
 
 body {
 	color: #444948;
 	font: normal 16px/24px "ProximaNovaLight", "Helvetica Neue", Helvetica, sans-serif;
 	margin:0 0 0 0px;
 	padding: 0 0 0 0px;
-}
+	}
 
-header{
+.bodyDiv{
+	margin:8px;
+	}
+
+.infoSectionDiv{
+	width:100%;
+	}
+	
+.sectionDiv{
+	width:50%;
+	float: left;
+	}
+
+.projectSectionDiv{
+	clear:both;
+	}
+
+.pageHeader{
 /*	background: #f4f3f3 url(../img/skyline.jpg) no-repeat cover top fixed; */
-	background: #f4f3f3 url(../img/skyline.jpg);
+	background: #f4f3f3 url(../img/nyc_sunset.jpg); 
 	background-size:cover;
+	background-repeat:no-repeat;
 	text-align: center;
-	height:400px;
-}
+	height:750px;
+	}
 
 header h1.headerIntro{
 	font-family: aDrippingMarker;
-	font-size: 80px;
-	color: #99ff33;
-}
+	font-size: 160px;
+	/* color: #99ff33; */
+	color: #990000;
+	}
 
 header .avatar {
 	display: block;
@@ -48,7 +67,6 @@ header .socialMedia a {
 	background-repeat: no-repeat;
 	text-align: center;
 	border: 0;
-
 	-webkit-transition: all .2s ease-in-out; /* For Safari 3.1 to 6.0 */
     transition: all .2s ease-in-out;
 	}
@@ -75,15 +93,54 @@ header .socialMedia a.github   {
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 25px;
-	height: 400px;
-	width: 400px;
+	height: 250px;
+	width: 250px;
 	}
 	
 .BioImage {
-	height:300px;
-	width:300px;
+	height:150px;
+	width:150px;
 	}
+	
+.slantedHeader {
+	z-index: 1;
+	position: relative;
+}
 
 .headerSpan {
-	color: #99ff33;
+/* 	color: #99ff33; */
+	color: #6600ff;
 	}
+	
+.slantedHeader .skew:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: visible;
+	width: 500px;
+	height: 100px;
+	background: #00bcd4;
+	z-index: -1;
+	-webkit-transform: skewY(-2deg);
+	-moz-transform: skewY(-2deg);
+	-ms-transform: skewY(-2deg);
+	-o-transform: skewY(-2deg);
+	transform: skewY(-2deg);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: initial;
+}
+
+.slantedHeader .skew .header-inner {
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	margin: 0;
+	color: #fff;
+	text-decoration: none;
+}
+
+
