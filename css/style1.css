@@ -1,0 +1,11 @@
+body{
+
+}
+
+.main{
+	background: url(../img/382499.jpg) no-repeat center center fixed;
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+	max-width: 1800px;
+}
