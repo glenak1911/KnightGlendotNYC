@@ -1,10 +1,31 @@
 @font-face {
+  font-family: 'a dripping marker';
+  src: url(../fonts/adrip1.ttf);
+}
+
+@font-face {
   font-family: 'Times New Yorker';
   src: url(../fonts/times_new_yorker.ttf);
 }
 
+@font-face {
+  font-family: 'Titillium-Bold';
+  src: url(../fonts/Titillium-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Titillium-Regular';
+  src: url(../fonts/Titillium-Regular.otf);
+}
+
+@font-face {
+  font-family: 'monthoers';
+  src: url(../fonts/Monthoers.ttf);
+}
+
 body{
 	margin: 0px 0px;
+	font-family: Titillium-Regular, Helvetica, sans-seriff;
 }
 
 .header{
@@ -26,6 +47,10 @@ body{
 	height:100vh;
 }
 
+/* #logoImg{
+	position:relative;
+} */
+
 .content{
   padding:100px 50px;
   text-align:center;
@@ -37,6 +62,30 @@ body{
   padding:30px 0px;
   text-align:center;
   background:#ddd;
+}
+
+.glenName{
+	height:210px;
+	width:100vh;
+	position:relative;
+	left:10px;
+	font-family: a dripping marker;
+	font-size:185px;
+	color:#800000;
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+}
+
+.glenTagLine{
+	height:100px;
+	width:100vh;
+	color:#ffffff;
+	position:relative;
+	left:50px;
+	top:20px;
+	font-size:30px;
+	font-family: Times New Yorker;
 }
 
 .socialMedia {
@@ -95,11 +144,10 @@ body{
 }
 
 .navigationItem{
-	/* top:-10px; */
 	padding:0px 10px;
 	list-style:none;
 	display:inline-block;
-	font-family: Times New Yorker;
+	font-family: Titillium-Bold;
 	font-size:25px;
 }
 
