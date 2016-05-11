@@ -195,5 +195,16 @@ body{
 .button:hover{
 	color:#ffffff;
 	background-color:#4CAF50;
+}
 
+#serviceList{
+	list-style-type:none;
+}
+
+#contactInfo{
+	visibility:hidden;
+}
+
+#contactFieldSet{
+	text-align:left;
 }
