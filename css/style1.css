@@ -181,3 +181,19 @@ body{
     -webkit-transition: all .5s ease-out; /* Safari 3.1 to 6.0 */
     transition: all .5s ease-out;
 }
+
+.button{
+	/* color:#4CAF50; */
+	background-color:#ffffff;
+	text-align:center;
+	border: 1px solid #4CAF50; 
+	font-size:16px;
+	-webkit-transition-duration: .5s; /* Safari 3.1 to 6.0 */
+    transition-duration: .5s;
+}
+
+.button:hover{
+	color:#ffffff;
+	background-color:#4CAF50;
+
+}
