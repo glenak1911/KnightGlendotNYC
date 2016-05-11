@@ -28,6 +28,10 @@ body{
 	font-family: Titillium-Regular, Helvetica, sans-seriff;
 }
 
+h1{
+	text-decoration:underline;
+}
+
 .header{
 	position:absolute;
 	top:50%;
