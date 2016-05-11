@@ -29,15 +29,15 @@ body{
 }
 
 .header{
-  position:absolute;
-  top:50%;
-  text-align:center;
-  width:100%;
-  color:#fff;
-  font-size:36px;
-  -ms-transform: translate(0,-50%); /* IE 9 */
-    -webkit-transform: translate(0,-50%); /* Safari */
-    transform: translate(0,-50%);  
+	position:absolute;
+	top:50%;
+	text-align:center;
+	width:100%;
+	color:#fff;
+	font-size:36px;
+	-ms-transform: translate(0,-50%); /* IE 9 */
+	-webkit-transform: translate(0,-50%); /* Safari */
+	transform: translate(0,-50%);  
 }
 
 #mainHero{
@@ -47,11 +47,30 @@ body{
 	height:100vh;
 }
 
-/* #logoImg{
-	position:relative;
-} */
+.bodyContent{
+  padding:100px 50px;
+  text-align:center;
+  width:80%;
+  margin:0px auto;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+  -webkit-column-rule: 1px solid lightblue; /* Chrome, Safari, Opera */
+  -moz-column-rule: 1px solid lightblue; /* Firefox */
+  column-rule: 1px solid lightblue;
+}
 
-.content{
+.portfolioContent{
+  padding:100px 50px;
+  text-align:center;
+  width:80%;
+  margin:0px auto;
+}
+
+.servicesContent{
   padding:100px 50px;
   text-align:center;
   width:80%;
@@ -144,6 +163,7 @@ body{
 }
 
 .navigationItem{
+	opacity:1;
 	padding:0px 10px;
 	list-style:none;
 	display:inline-block;
@@ -154,4 +174,10 @@ body{
 .navLink {	
 	color:#ffffff;
 	text-decoration:none;
+}
+
+.navigationItem a:hover{	
+    color: #00ff00;
+    -webkit-transition: all .5s ease-out; /* Safari 3.1 to 6.0 */
+    transition: all .5s ease-out;
 }
