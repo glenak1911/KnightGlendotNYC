@@ -207,6 +207,8 @@ h1{
 
 #contactInfo{
 	visibility:hidden;
+	-webkit-transition: all .5s ease-out; /* Safari 3.1 to 6.0 */
+    transition: all .5s ease-out;
 }
 
 #contactFieldSet{
