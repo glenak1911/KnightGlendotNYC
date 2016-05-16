@@ -207,7 +207,7 @@ h1{
 }
 
 #contactInfo{
-	visibility:hidden;
+	display:none;
 	-webkit-transition: .5s ease-out; /* Safari 3.1 to 6.0 */
     transition: .5s ease-out;
 }
