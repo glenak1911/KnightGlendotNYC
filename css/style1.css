@@ -240,10 +240,10 @@ h1{
 	float:left;
 }
 
-.portfolioItem:hover{
+/* .portfolioItem:hover{
 	height:210px;
 	width:210px;
-}
+} */
 
 #portfolioHolder{
 	width:interited;
