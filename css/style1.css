@@ -73,6 +73,7 @@ h1{
   text-align:center;
   width:80%;
   margin:0px auto;
+  clear:both;
 }
 
 .servicesContent{
@@ -80,6 +81,7 @@ h1{
   text-align:center;
   width:80%;
   margin:0px auto;
+  clear:both;
 }
 
 #footer{
@@ -229,3 +231,21 @@ h1{
 	font-size:9px;
 	float:right;
 	text-decoration:underline;
+}
+
+.portfolioItem{
+	height:200px;
+	width:200px;
+	border:1px solid;
+	float:left;
+}
+
+.portfolioItem:hover{
+	height:210px;
+	width:210px;
+}
+
+#portfolioHolder{
+	width:interited;
+	height:700px;
+}
