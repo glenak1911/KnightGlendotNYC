@@ -206,6 +206,7 @@ h1{
 
 #serviceList{
 	list-style-type:none;
+	padding:0;
 }
 
 #contactInfo{
