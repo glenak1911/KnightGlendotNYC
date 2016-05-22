@@ -82,15 +82,15 @@
 				<button class="button" type="button" onclick="displayContactInfo()">How to contact me?</button>
 				<br>
 				<div id="contactInfo" style="display:none;">
-					<form id="contactForm">
+					<form id="contactForm" action="scripts/mail.php" method="post">
 						<fieldset id="contactFieldSet">
 							<legend>It Goes Down In The DM!</legend>
 								Name:<br>
-								<input type="text"><br>
+							<input id="formName" type="text" required><br>
 								E-mail:<br>
-								<input type="text"><br>
+								<input id="formEmail" type="text" required><br>
 								Message:<br>
-								<textarea class="submissionText"></textarea><br>
+								<textarea id="formTextContent" class="submissionText" required></textarea><br>
 								<input id="submitMessage" class="button" type="submit" value="Fire in the Hole!">
 						</fieldset>
 					</form>

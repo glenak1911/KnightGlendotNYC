@@ -250,3 +250,8 @@ h1{
 	width:interit;
 	height:700px;
 }
+
+.Error{
+	display:none;
+	color:#ff3333;
+}
