@@ -85,9 +85,10 @@ h1{
 }
 
 #footer{
-  padding:30px 0px;
-  text-align:center;
-  background:#ddd;
+	/*padding:30px 0px;*/
+	text-align:center;
+	color:#ffffff;
+	background:#999999;
 }
 
 .glenName{
