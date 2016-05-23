@@ -237,6 +237,7 @@ legend{
 .topPage{
 	font-size:9px;
 	float:right;
+	clear:both;
 	text-decoration:underline;
 }
 
