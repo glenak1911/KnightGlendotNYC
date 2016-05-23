@@ -92,7 +92,7 @@ h1{
 
 .glenName{
 	height:210px;
-	width:100vh;
+	width:80vw;
 	position:relative;
 	left:10px;
 	font-family: a dripping marker;
@@ -105,7 +105,7 @@ h1{
 
 .glenTagLine{
 	height:100px;
-	width:100vh;
+	width:80vw;
 	color:#ffffff;
 	position:relative;
 	left:50px;
@@ -244,6 +244,7 @@ legend{
 	width:200px;
 	border:1px solid;
 	float:left;
+	background-image:url(../img/comingSoon.jpg);
 }
 
 /* .portfolioItem:hover{
