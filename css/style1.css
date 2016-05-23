@@ -110,7 +110,7 @@ h1{
 	color:#999999;
 	position:relative;
 	left:50px;
-	top:20px;
+	top:50px;
 	font-size:30px;
 	font-family: Times New Yorker;
 }
@@ -242,8 +242,8 @@ legend{
 }
 
 .portfolioItem{
-	height:200px;
-	width:200px;
+	height:175px;
+	width:20%;
 	border:1px solid;
 	float:left;
 	background-image:url(../img/comingSoon.jpg);
@@ -255,7 +255,9 @@ legend{
 } */
 
 #portfolioHolder{
-	width:interit;
+	display:table;
+	margin:0 auto;
+	width:inherit;
 	height:700px;
 }
 
