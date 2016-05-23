@@ -191,6 +191,7 @@ h1{
 
 .button{
 	/* color:#4CAF50; */
+	margin:5px;
 	background-color:#ffffff;
 	text-align:center;
 	border: 1px solid #4CAF50; 
@@ -216,6 +217,10 @@ h1{
 }
 
 #contactFieldSet{
+	text-align:center;
+}
+
+legend{
 	text-align:left;
 }
 
