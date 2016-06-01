@@ -88,7 +88,7 @@ h1{
 	/*padding:30px 0px;*/
 	text-align:center;
 	color:#ffffff;
-	background:#999999;
+	background:#000000;
 }
 
 .glenName{
@@ -119,12 +119,13 @@ h1{
 	text-align: center;
 	padding-top: 0;
 	margin:0px 0px;
+	background:
 	}
 	
-.socialMedia a {
+.socialMedia a img{
 	padding:10px;
-	height: 30px;
-	width:50px;
+	height: 60px;
+	width:100px;
 	display: inline-block;
 	text-indent: -999em;
 	-webkit-transform: scale(0.5, 0.5);
@@ -137,21 +138,17 @@ h1{
     transition: all .2s ease-in-out;
 	}
 	
-.socialMedia a.twitter  { 
-	background-image: url(../img/twitter.png); 
+/* .socialMedia a.twitter  { 
+	background-image: url(../img/social-1_square-twitter.svg); 
 	}
 
 .socialMedia a.linkedin { 
-	background-image: url(../img/linkedin.png); 
-	}
-
-.socialMedia a.email    { 
-	background-image: url(../img/mail.png); 
+	background-image: url(../img/social-1_square-linkedin.svg); 
 	}
 
 .socialMedia a.github   { 
-	background-image: url(../img/github.png); 
-	}
+	background-image: url(../img/social-1_square-github.svg); 
+	} */
 	
 .nav-wrapper{
 	background-color:#330000;
