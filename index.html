@@ -5,6 +5,7 @@
 		<link rel="icon" href="favicon.ico" type="image/x-icon" />
 		<title>Glen Knight: NYC Based Web Developer &amp; Programmer</title>
 		<link type="text/css" rel="stylesheet" href="css/style1.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -16,7 +17,11 @@
 				<nav>
 				<div class="navigationBar">
 				  <ul>
-					<li class="navigationItem"><a class ="navLink" href="#About">About</a></li><li class="navigationItem"><a class ="navLink" href="#Portfolio">Portfolio</a></li><li class="navigationItem"><a class ="navLink" href="#Services">Services</a></li><li class="navigationItem"><a class ="navLink" href="docs/Resume.pdf">Resume</a></li>
+					<li class="navigationItem"><a class ="navLink" href="#About">About</a></li>
+					<li class="navigationItem"><a class ="navLink" href="#Portfolio">Portfolio</a></li>
+					<li class="navigationItem"><a class ="navLink" href="#Services">Services</a></li>
+					<li class="navigationItem"><a class ="navLink" href="#">Blog</a></li>
+					<li class="navigationItem"><a class ="navLink" href="docs/Resume.pdf">Resume</a></li>
 				  </ul>
 				</div>
 				</nav>
@@ -42,17 +47,6 @@
 					<div class="portfolioItem"></div>
 					<div class="portfolioItem"></div>
 					<div class="portfolioItem"></div>
-					<div class="portfolioItem"></div>
-					<div class="portfolioItem"></div>
-					<div class="portfolioItem"></div>
-					<div class="portfolioItem"></div>
-					<div class="portfolioItem"></div>
-					<div class="portfolioItem"></div>
-					<div class="portfolioItem"></div>
-					<div class="portfolioItem"></div>
-					<div class="portfolioItem"></div>
-					<div class="portfolioItem"></div>
-					<div class="portfolioItem"></div>
 				</div><br>
 				<!-- Make the Div checkerboard a part of a carousel, spearating projects into Websites, Applications, etc. -->
 <!-- 			Lazy loading of the portfolio gallery
@@ -67,7 +61,7 @@
 				<h2>What I Do</h2>
 				<p>I aim to create rich and robust desktop, server side, and web applications that are aesthetically appealing, solidly constructed, and intiuitive to use.</p>
 				<p>There are many elements to consider in order to effecively run a business, and we cannot deny the importance of having an online presence. This is true across all industries, whether you are a designer, writer, mechanic, musician, etc.</p>
-				<p>Let's chat and discuss your needs.</p> 
+				<p>Let's chat and discuss your needs.</p>
 				<button class="button" type="button" onclick="displayContactInfo()">How to contact me?</button>
 				<br>
 				<div id="contactInfo" style="display:none;">
@@ -89,13 +83,14 @@
 					<li>HTML</li>
 					<li>CSS</li>
 					<li>Javascript</li>
+					<li>Bootstrap</li>
+					<li>Node.js</li>
+					<li>AngularJS</li>
+					<li>ExpressJS</li>
 					<li>JQuery</li>
 					<li>Relational/NoSQL DB</li>
-					<li>Bootstrap</li>
 					<li>Java</li>
 					<li>Python</li>
-					<li>PHP</li>
-					<li>Willing and able to learn/work with other frameworks not listed</li>
 				</ul>
 			<p><a class="topPage" href="#"mainHero>Top</a></p>
 			</div>
@@ -114,11 +109,11 @@
 <!-- 				<script type="text/javascript">
 					var d = new Date()
 					document.write(d.getFullYear())
-				</script> 
+				</script>
 				Glen Knight -->
 				No one at all. Go to town.
 				<!-- <3 Open Source -->
-			</div>	
+			</div>
 			</div>
 		</div>
 		<script>
@@ -129,10 +124,13 @@
 		  ga('create', 'UA-77914766-1', 'auto');
 		  ga('send', 'pageview');
 		</script>
+		<!--Vendor Scripts-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-		<script src="scripts/knightGlen.js"></script>	
-		<script src="scripts/smoothScroll.js"></script>
 		<script src="http://quotesondesign.com/api/3.0/api-3.0.js" type="text/javascript" charset="utf-8"></script>
-		<script src="https://use.fontawesome.com/ade44aafc3.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+		<script src="scripts/angular-route.min.js"></script>
+		<!--Custom Scripts-->
+		<script src="scripts/knightGlen.js"></script>
+		<script src="scripts/smoothScroll.js"></script>
 	</body>
 </html>
