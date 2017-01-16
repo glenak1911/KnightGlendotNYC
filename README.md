@@ -7,5 +7,7 @@ This project is to be used as a sort of "living" resume, and will be updated reg
 * Cross-browser compatibility(currently works best on Chrome)
 * Lazy loading images/animations
 * Lightboxing
-* Messaging functionality
+* ~Messaging functionality~
+* Custom built blog utilizing Node.js, AngularJS, MongoDB, and Express.js
+
 
