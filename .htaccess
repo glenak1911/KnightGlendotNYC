@@ -1,1 +1,4 @@
-AddType application/x-httpd-php .html .htm
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^knightglen\.com [NC]
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://www.knightglen.com/$1 [R,L]
