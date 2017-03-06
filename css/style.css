@@ -29,9 +29,9 @@ html {
 
 body{
   height:100%;
-	margin-bottom:60px;
+  margin-bottom:60px;
   padding-bottom: 70px;
-	font-family: Titillium-Regular, Helvetica, sans-seriff;
+   font-family: Titillium-Regular, Helvetica, sans-seriff;
 }
 
 h1{
@@ -263,7 +263,7 @@ legend{
 	.bodyContent{
 	  padding:50px 50px;
 	  text-align:center;
-	  width:80%;
+	  width:100%;
 	  margin:0px auto;
 	  -webkit-column-count: 1; /* Chrome, Safari, Opera */
 	  -moz-column-count: 1; /* Firefox */
