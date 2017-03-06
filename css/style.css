@@ -307,4 +307,8 @@ legend{
 	  background-attachment:fixed;
 	  background-position:center;
 	}
+	
+	a.btn btn-default btn-lg{
+		padding:5px;
+	}
 }
