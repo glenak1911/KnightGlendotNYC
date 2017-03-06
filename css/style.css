@@ -52,7 +52,7 @@ h1{
 
 #mainHero{
   width:100vw;
-  background: url(../img/382499.jpg);
+
   background-size:cover;
 	position:relative;
 	height:100vh;
@@ -60,7 +60,10 @@ h1{
 }
 
 .jumbotron{
+  background: url(../img/382499.jpg);
   padding:0px;
+  height:100vh;
+  background-size:cover;
 }
 
 .jumbotron .container{
@@ -110,7 +113,7 @@ h1{
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 160px;
+  height: 100px;
 	text-align:center;
 	color:#ffffff;
 	background-color:#000000;

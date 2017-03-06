@@ -8,6 +8,8 @@
 		<title>Glen Knight: NYC Based Web Developer &amp; Programmer</title>
 		<link rel="stylesheet" href="css/bootstrap.css" />
 		<link rel="stylesheet" href="css/style.css" />
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css" />
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -36,21 +38,23 @@
 				</div>
 			</div>
 		</nav>
-		<!--<div class="wrapper">-->
 		<div class="jumbotron">
 			<div class="container">
-				<div id="mainHero">
 						<div class="glenName">Glen Knight</div>
 						<div class="glenTagLine">NYC Based Web Developer &amp; Programmer</div>
-				</div>
 			</div>
 		</div>
-
 			<div class="bodyContent">
 				<h1 id="About">About</h1>
-				<p><img id="myPhoto" src="img/me.jpg" />Hi, Glen here! I'm a web developer and programmer located in The Greatest City in the World, New York City. I first began working with HTML during elementary school when I purchased an instructional book from a school book fair. I started when all styling was done within the html, that's right, before CSS was even a thing! My html files were even stored on a floppy disk with a whopping 5mb of memory. </p>
-<p>Fast forward a few years and I majored in Information Technology while studying at Florida International University. During that time I picked up Java, and dabbled in Visual Basic, C#, and JSP/Servlet technologies, among the other core IT courses. I enjoyed the Java courses I took the most, as well as my web development courses.</p>
-<p>Now that I'm out of school, I've picked up Javascript and JQuery, and have been sharpening my CSS. I'm also working on learning how to use the different Javascript libraries(node.js, ember.js, Angular.js, etc), and picking up any other cerifications that I can pursue.</p>
+				<img id="myPhoto" src="img/me.jpg" />
+				<p>I'm Glen Knight, and I'm a Web Developer, Web Designer and Programmer located in Brooklyn, New York.</p>
+				<p>I graduated from Florida International University in 2013, with a Bachelor's Degree in Information Technology. I have experience in various technologies and aspects of the Information Technology industry.
+				I have worked in Change Management, as well as the IT Service Management space. I am currently a Consultant by day, and A freelance developer by evening and weekend.</p>
+				<p>I enjoy working in Web Development because everything we do is being integrated into "The Cloud", and more and more frameworks, languages, and apps are web based. Some good examples are: Google Drive, Google Maps, Spotify(Web), TurboTax, etc.</p>
+				<p>I'm proficient in a few web technologies, such as HTML, CSS, and Javascript, as well as Java for more desktop application programming. I'm currently learning JQuery, NodeJs, ExpressJs, and MongoDB as well as a few frameworks, such as AngularJs, Bootstrap, ReactJs, and MeteorJs.</p>
+				<p>I am also becoming proficient in WordPress and custom themeing and plugin development.</p>
+				<p>Please feel free to browse this site, my code repositories, Twitter, portfolio section, and blog to keep up to date with my work. Don't hesitate to connect for project inquiries, freelance work, or just to chat!</p>
+				<p>I look forward to hearing from you!</p>
 				<p><a class="topPage" href="#"mainHero>Top</a></p>
 			</div>
 			<div class="portfolioContent">
@@ -77,21 +81,33 @@
 				<p>I aim to create rich and robust desktop, server side, and web applications that are aesthetically appealing, solidly constructed, and intiuitive to use.</p>
 				<p>There are many elements to consider in order to effecively run a business, and we cannot deny the importance of having an online presence. This is true across all industries, whether you are a designer, writer, mechanic, musician, etc.</p>
 				<p>Let's chat and discuss your needs.</p>
-				<button class="button" type="button" onclick="displayContactInfo()">How to contact me?</button>
+				<button type="button" class="button" data-toggle="modal" data-target="#myModal">Contact Me</button>
 				<br>
-				<div id="contactInfo" style="display:none;">
-					<form id="contactForm" action="scripts/mail.php" method="post">
-						<fieldset id="contactFieldSet">
-							<legend>Contact</legend>
-								Name:<br>
-							<input id="formName" name="name"type="text" required><br>
-								E-mail:<br>
-								<input id="formEmail" name="email" type="text" required><br>
-								Message:<br>
-								<textarea id="formTextContent" name="comment" class="submissionText" required></textarea><br>
-								<input id="submitMessage" class="button" type="submit" value="Fire in the Hole!"><input id="resetMessage" class="button" type="reset" value="Clear">
-						</fieldset>
-					</form>
+				<div class="modal fade left" id="myModal">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3 class="pull-left no-margin">Contact Form</h3>
+								<button type="button" class="close" data-dismiss="modal" title="Close"><span class="glyphicon glyphicon-remove"></span></button>
+							</div>
+							<div class="modal-body">
+							<form id="contactForm" action="scripts/mail.php" method="post">
+								<fieldset id="contactFieldSet">
+										Name:<br>
+									<input id="formName" name="name"type="text" required><br>
+										E-mail:<br>
+										<input id="formEmail" name="email" type="text" required><br>
+										Message:<br>
+										<textarea id="formTextContent" name="comment" class="submissionText" required></textarea><br>
+										<input id="submitMessage" class="button" type="submit" value="Fire in the Hole!"><input id="resetMessage" class="button" type="reset" value="Clear">
+								</fieldset>
+							</form>
+							</div>
+							<div class="modal-footer">
+								<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
 				</div>
 				<h2>Technologies Utilized</h2>
 				<ul id="serviceList">
@@ -106,6 +122,7 @@
 					<li>Relational/NoSQL DB</li>
 					<li>Java</li>
 					<li>Python</li>
+					<li>WordPress</li>
 				</ul>
 			<p><a class="topPage" href="#"mainHero>Top</a></p>
 			</div>
@@ -132,8 +149,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
 		<script src="scripts/angular-route.min.js"></script>
-		<script src="scripts/bootstrap.js"></script>
-		<!--Custom Scripts-->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>		<!--Custom Scripts-->
 		<script src="scripts/knightGlen.js"></script>
 		<script src="scripts/smoothScroll.js"></script>
 	</body>
