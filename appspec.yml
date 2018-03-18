@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/wp-content/themes/YanniPaul
+    destination: /var/www/html/wp-content/themes/KnightGlen
 permissions:
   - object: /
     owner: apache
