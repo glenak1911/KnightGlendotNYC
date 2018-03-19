@@ -5,7 +5,7 @@
 		<link rel="icon" href="favicon.ico" type="image/x-icon" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Glen Knight: NYC Based Web Developer &amp; Programmer</title>
+		<title><?php echo get_bloginfo( 'name' ); ?>: <?php echo get_bloginfo( 'description' ); ?></title>
 		<link rel="stylesheet" href="css/bootstrap.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -29,11 +29,11 @@
 				</div>
 				<div id="bs-example-navbar-collapse-1" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
-						<li class="navigationItem"><a class ="navLink" href="#About">About</a></li>
-						<li class="navigationItem"><a class ="navLink" href="#Portfolio">Portfolio</a></li>
-						<li class="navigationItem"><a class ="navLink" href="#Services">Services</a></li>
-						<li class="navigationItem"><a class ="navLink" href="https://knightglen.com/blog">Blog</a></li>
-						<li class="navigationItem"><a class ="navLink" href="docs/Resume.pdf">Resume</a></li>
+						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/#About">About</a></li>
+						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/#Portfolio">Portfolio</a></li>
+						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/#Services">Services</a></li>
+						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/blog">Blog</a></li>
+						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/docs/Resume.pdf">Resume</a></li>
 					</ul>
 				</div>
 			</div>
@@ -41,8 +41,8 @@
 		<div class="jumbotron">
 			<div class="container">
 				<div class="col-md-6">
-						<h1 class="glenName">Glen Knight</h1>
-						<h2 class="glenTagLine">NYC Based Web Developer &amp; Programmer</h2>
+						<h1 class="glenName"><?php echo get_bloginfo( 'name' ); ?></h1>
+						<h2 class="glenTagLine"><?php echo get_bloginfo( 'description' ); ?></h2>
 				</div>
 			</div>
 		</div>
