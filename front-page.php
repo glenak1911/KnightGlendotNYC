@@ -79,34 +79,7 @@
 				<p>I aim to create rich and robust desktop, server side, and web applications that are aesthetically appealing, solidly constructed, and intiuitive to use.</p>
 				<p>There are many elements to consider in order to effecively run a business, and we cannot deny the importance of having an online presence. This is true across all industries, whether you are a designer, writer, mechanic, musician, etc.</p>
 				<p>Let's chat and discuss your needs. I am based in New York City, but I am willing to work remotely as well.</p>
-				<button type="button" class="button" data-toggle="modal" data-target="#myModal">Contact Me</button>
-				<br>
-				<div class="modal fade left" id="myModal">
-					<div class="modal-dialog">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h3 class="pull-left no-margin">Contact Form</h3>
-								<button type="button" class="close" data-dismiss="modal" title="Close"><span class="glyphicon glyphicon-remove"></span></button>
-							</div>
-							<div class="modal-body">
-							<form id="contactForm" action="<?php echo get_bloginfo('template_directory'); ?>/scripts/mail.php" method="post">
-								<fieldset id="contactFieldSet">
-										Name:<br>
-									<input id="formName" name="name"type="text" required><br>
-										E-mail:<br>
-										<input id="formEmail" name="email" type="text" required><br>
-										Message:<br>
-										<textarea id="formTextContent" name="comment" class="submissionText" required></textarea><br>
-										<input id="submitMessage" class="button" type="submit" value="Fire in the Hole!"><input id="resetMessage" class="button" type="reset" value="Clear">
-								</fieldset>
-							</form>
-							</div>
-							<div class="modal-footer">
-								<button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
+			</div>
 				<h2>Technologies Utilized</h2>
 				<ul id="serviceList">
 					<li>HTML</li>
