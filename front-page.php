@@ -1,43 +1,4 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<meta charset="utf-8"/>
-		<link rel="icon" href="favicon.ico" type="image/x-icon" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title><?php echo get_bloginfo( 'name' ); ?>: <?php echo get_bloginfo( 'description' ); ?></title>
-		<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/bootstrap.css" />
-		<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/style.css" />
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	</head>
-	<body>
-		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
-				<div id="bs-example-navbar-collapse-1" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav">
-						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/#About">About</a></li>
-						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/#Portfolio">Portfolio</a></li>
-						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/#Services">Services</a></li>
-						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/blog">Blog</a></li>
-						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/docs/Resume.pdf">Resume</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+<?php get_header(); ?>
 		<div class="jumbotron">
 			<div class="container">
 				<div class="col-md-6">
@@ -98,29 +59,4 @@
 				</ul>
 			<p><a class="topPage" href="#"mainHero>Top</a></p>
 			</div>
-		<footer class="footer footerContainer">
-			<div id="footer" class="container">
-					<div class="socialMedia">
-						<a target = "_blank"  class="fa fa-twitter" href="https://twitter.com/Kn1ghtVisionNYC"></a>
-						<a target = "_blank" class="fa fa-linkedin" href="https://www.linkedin.com/in/glen-knight-2a5b712b"></a>
-						<a target = "_blank" class="fa fa-github" href="https://github.com/glenak1911"></a>
-					</div>
-					Copyright &#169;
-					No one at all. Go to town.
-			</div>
-		</footer>
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-		  ga('create', 'UA-77914766-1', 'auto');
-		  ga('send', 'pageview');
-		</script>
-		<!--Vendor Scripts-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>		<!--Custom Scripts-->
-		<script src="<?php echo get_bloginfo('template_directory'); ?>/scripts/knightGlen.js"></script>
-		<script src="<?php echo get_bloginfo('template_directory'); ?>/scripts/smoothScroll.js"></script>
-	</body>
-</html>
+<?php get_footer(); ?>

@@ -14,7 +14,7 @@
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-    <?php wp_head(); ?>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -29,11 +29,11 @@
 				</div>
 				<div id="bs-example-navbar-collapse-1" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
-						<li class="navigationItem"><a class ="navLink" href="#About">About</a></li>
-						<li class="navigationItem"><a class ="navLink" href="#Portfolio">Portfolio</a></li>
-						<li class="navigationItem"><a class ="navLink" href="#Services">Services</a></li>
-						<li class="navigationItem"><a class ="navLink" href="https://knightglen.com/blog">Blog</a></li>
-						<li class="navigationItem"><a class ="navLink" href="docs/Resume.pdf">Resume</a></li>
+						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/#About">About</a></li>
+						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/#Portfolio">Portfolio</a></li>
+						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/#Services">Services</a></li>
+						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/blog">Blog</a></li>
+						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/docs/Resume.pdf">Resume</a></li>
 					</ul>
 				</div>
 			</div>
