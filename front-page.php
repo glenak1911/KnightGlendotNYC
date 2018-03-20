@@ -118,8 +118,6 @@
 		</script>
 		<!--Vendor Scripts-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
-		<script src="<?php echo get_bloginfo('template_directory'); ?>/scripts/angular-route.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>		<!--Custom Scripts-->
 		<script src="<?php echo get_bloginfo('template_directory'); ?>/scripts/knightGlen.js"></script>
 		<script src="<?php echo get_bloginfo('template_directory'); ?>/scripts/smoothScroll.js"></script>
