@@ -47,7 +47,7 @@
 		</div>
 			<div class="bodyContent">
 				<h1 id="About">About</h1>
-				<img id="myPhoto" src="img/me.jpg" />
+				<img id="myPhoto" src="<?php echo get_bloginfo('template_directory'); ?>/img/me.jpg" />
 				<p>I'm Glen Knight, and I'm a Web Developer, Web Designer and Programmer located in Brooklyn, New York.</p>
 				<p>I graduated from Florida International University in 2013, with a Bachelor's Degree in Information Technology. I have experience in various technologies and aspects of the Information Technology industry.
 				I have worked in Change Management, as well as the IT Service Management space. I am currently a Consultant by day, and A freelance developer by evening and weekend.</p>
@@ -66,7 +66,7 @@
 					<img src="img/gamma.png" alt="Portfolio Item" class="portfolioItem">
 					<h2>Gamma:Photo Sharing App</h2>
 					<p>A demo site for a ficticious photo sharing app.</p>
-					<a class="btn btn-default btn-lg" href="photoAppSite/index.html" role="button">View Site</a>
+					<a class="btn btn-default btn-lg" href="<?php echo get_bloginfo('template_directory'); ?>/photoAppSite/index.html" role="button">View Site</a>
 					<a class="btn btn-default btn-lg" href="https://github.com/glenak1911/photoAppSite" role="button">View Code</a>
 				</div>
 				<p><a class="topPage" href="#"mainHero>Top</a></p>
@@ -89,7 +89,7 @@
 								<button type="button" class="close" data-dismiss="modal" title="Close"><span class="glyphicon glyphicon-remove"></span></button>
 							</div>
 							<div class="modal-body">
-							<form id="contactForm" action="scripts/mail.php" method="post">
+							<form id="contactForm" action="<?php echo get_bloginfo('template_directory'); ?>/scripts/mail.php" method="post">
 								<fieldset id="contactFieldSet">
 										Name:<br>
 									<input id="formName" name="name"type="text" required><br>
@@ -146,9 +146,9 @@
 		<!--Vendor Scripts-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
-		<script src="scripts/angular-route.min.js"></script>
+		<script src="<?php echo get_bloginfo('template_directory'); ?>/scripts/angular-route.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>		<!--Custom Scripts-->
-		<script src="scripts/knightGlen.js"></script>
-		<script src="scripts/smoothScroll.js"></script>
+		<script src="<?php echo get_bloginfo('template_directory'); ?>/scripts/knightGlen.js"></script>
+		<script src="<?php echo get_bloginfo('template_directory'); ?>/scripts/smoothScroll.js"></script>
 	</body>
 </html>

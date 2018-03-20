@@ -1,9 +1,9 @@
 <footer class="footer footerContainer">
   <div id="footer" class="container">
       <div class="socialMedia">
-        <a target = "_blank" href="https://twitter.com/Kn1ghtVisionNYC"><img src="img/social-1_square-twitter.svg"></a>
-        <a target = "_blank" href="https://www.linkedin.com/in/glen-knight-2a5b712b"><img src="img/social-1_square-linkedin.svg"></a>
-        <a target = "_blank" href="https://github.com/glenak1911"><img src="img/social-1_square-github.svg"></a>
+        <a target = "_blank" href="https://twitter.com/Kn1ghtVisionNYC"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/social-1_square-twitter.svg"></a>
+        <a target = "_blank" href="https://www.linkedin.com/in/glen-knight-2a5b712b"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/social-1_square-linkedin.svg"></a>
+        <a target = "_blank" href="https://github.com/glenak1911"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/social-1_square-github.svg"></a>
       </div>
       Copyright &#169;
       No one at all. Go to town.
@@ -20,9 +20,9 @@
 <!--Vendor Scripts-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
-<script src="scripts/angular-route.min.js"></script>
+<script src="<?php echo get_bloginfo('template_directory'); ?>/scripts/angular-route.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>		<!--Custom Scripts-->
-<script src="scripts/knightGlen.js"></script>
-<script src="scripts/smoothScroll.js"></script>
+<script src="<?php echo get_bloginfo('template_directory'); ?>/scripts/knightGlen.js"></script>
+<script src="<?php echo get_bloginfo('template_directory'); ?>/scripts/smoothScroll.js"></script>
 </body>
 </html>
