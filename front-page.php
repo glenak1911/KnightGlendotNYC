@@ -14,6 +14,7 @@
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -100,9 +101,9 @@
 		<footer class="footer footerContainer">
 			<div id="footer" class="container">
 					<div class="socialMedia">
-						<a target = "_blank" href="https://twitter.com/Kn1ghtVisionNYC"><img src="img/social-1_square-twitter.svg"></a>
-						<a target = "_blank" href="https://www.linkedin.com/in/glen-knight-2a5b712b"><img src="img/social-1_square-linkedin.svg"></a>
-						<a target = "_blank" href="https://github.com/glenak1911"><img src="img/social-1_square-github.svg"></a>
+						<a target = "_blank"  class="fa fa-twitter" href="https://twitter.com/Kn1ghtVisionNYC"></a>
+						<a target = "_blank" class="fa fa-linkedin" href="https://www.linkedin.com/in/glen-knight-2a5b712b"></a>
+						<a target = "_blank" class="fa fa-github" href="https://github.com/glenak1911"></a>
 					</div>
 					Copyright &#169;
 					No one at all. Go to town.
