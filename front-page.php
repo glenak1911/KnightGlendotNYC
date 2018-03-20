@@ -79,7 +79,7 @@
 				<p>I aim to create rich and robust desktop, server side, and web applications that are aesthetically appealing, solidly constructed, and intiuitive to use.</p>
 				<p>There are many elements to consider in order to effecively run a business, and we cannot deny the importance of having an online presence. This is true across all industries, whether you are a designer, writer, mechanic, musician, etc.</p>
 				<p>Let's chat and discuss your needs. I am based in New York City, but I am willing to work remotely as well.</p>
-			</div>
+				<br>
 				<h2>Technologies Utilized</h2>
 				<ul id="serviceList">
 					<li>HTML</li>
