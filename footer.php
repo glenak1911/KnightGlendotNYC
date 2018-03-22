@@ -5,6 +5,7 @@
         <a target = "_blank" href="https://www.linkedin.com/in/glen-knight-2a5b712b"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/linkedin.svg" /></a>
         <a target = "_blank" href="https://github.com/glenak1911"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/github.svg" /></a>
       </div>
+      <div class="searchBox"><?php get_search_form(); ?></div>
       Copyright &#169;
       No one at all. Go to town.
   </div>

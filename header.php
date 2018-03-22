@@ -33,14 +33,6 @@
 						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/#Services">Services</a></li>
 						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/blog">Blog</a></li>
 						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/docs/Resume.pdf">Resume</a></li>
-            <li class="navigationItem">
-									<div class="input-group">
-						             <span class="input-group-btn">
-						                  <button class="btn btn-default" type="button">Go!</button>
-						              </span>
-						              <input type="text" class="form-control" placeholder="Search for...">
-						      </div><!-- /input-group -->
-						</li>
 					</ul>
 
 				</div>
