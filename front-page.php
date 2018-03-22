@@ -31,6 +31,13 @@
 					<a class="btn btn-default btn-lg" href="<?php echo get_bloginfo('template_directory'); ?>/photoAppSite/index.html" role="button">View Site</a>
 					<a class="btn btn-default btn-lg" href="https://github.com/glenak1911/photoAppSite" role="button">View Code</a>
 				</div>
+				<div class="col-md-4">
+					<img src="<?php echo get_bloginfo('template_directory'); ?>/img/yannipaul.png" alt="Portfolio Item" class="portfolioItem">
+					<h2>Yanni Paul</h2>
+					<p>A Place For Those With Too Many Interests</p>
+					<a class="btn btn-default btn-lg" href="https://yannipaul.com" role="button">View Site</a>
+					<a class="btn btn-default btn-lg" href="https://github.com/glenak1911/Yannipaul" role="button">View Code</a>
+				</div>
 				<p><a class="topPage" href="#"mainHero>Top</a></p>
 			</div>
 			<div class="servicesContent">
