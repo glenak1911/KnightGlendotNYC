@@ -115,7 +115,6 @@ h1{
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 100px;
 	text-align:center;
 	color:#ffffff;
 	background-color:#000000;
@@ -341,7 +340,7 @@ legend{
     from { width: 0 }
     to { width: 100% }
   }
-  
+
 	.jumbotron{
 	  background: url(../img/jTrain.jpg);
 	  padding:0px;
