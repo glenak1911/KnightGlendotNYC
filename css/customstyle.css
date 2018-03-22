@@ -120,6 +120,10 @@ h1{
 	background-color:#000000;
 }
 
+#searchsubmit{
+  color: #000;
+}
+
 h1.glenName{
 	width:100%;
 	position:relative;
