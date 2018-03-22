@@ -35,7 +35,7 @@
 					<img src="<?php echo get_bloginfo('template_directory'); ?>/img/yannipaul.png" alt="Portfolio Item" class="portfolioItem">
 					<h2>Yanni Paul</h2>
 					<p>A Place For Those With Too Many Interests</p>
-					<br><br>
+					<br>
 					<a class="btn btn-default btn-lg" href="https://yannipaul.com" role="button">View Site</a>
 					<a class="btn btn-default btn-lg" href="https://github.com/glenak1911/Yannipaul" role="button">View Code</a>
 				</div>
