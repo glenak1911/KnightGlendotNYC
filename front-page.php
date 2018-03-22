@@ -24,20 +24,39 @@
 			<div class="portfolioContent">
 				<hr />
 				<h1 id="Portfolio">Portfolio</h1>
-				<div class="col-md-4 portfolioblock">
-					<img src="<?php echo get_bloginfo('template_directory'); ?>/img/gamma.png" alt="Portfolio Item" class="portfolioItem">
-					<h2>Gamma:Photo Sharing App</h2>
-					<p>A demo site for a ficticious photo sharing app.</p>
-					<a class="btn btn-default btn-lg" href="<?php echo get_bloginfo('template_directory'); ?>/photoAppSite/index.html" role="button">View Site</a>
-					<a class="btn btn-default btn-lg" href="https://github.com/glenak1911/photoAppSite" role="button">View Code</a>
+				<div class="col-md-4 ">
+					<div class="row">
+					    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/gamma.png" alt="Portfolio Item" class="portfolioItem">
+				  </div>
+					<div class="row">
+					    <h2>Gamma:Photo Sharing App</h2>
+				  </div>
+					<div class="row">
+					    <p>A demo site for a ficticious photo sharing app.</p>
+				  </div>
+					<div class="row">
+					    <a class="btn btn-default btn-lg" href="<?php echo get_bloginfo('template_directory'); ?>/photoAppSite/index.html" role="button">View Site</a>
+				  </div>
+				  <div class="row">
+					    <a class="btn btn-default btn-lg" href="https://github.com/glenak1911/photoAppSite" role="button">View Code</a>
+				  </div>
 				</div>
-				<div class="col-md-4 portfolioblock">
+				<div class="col-md-4">
+          <div class="row">
 					<img src="<?php echo get_bloginfo('template_directory'); ?>/img/yannipaul.png" alt="Portfolio Item" class="portfolioItem">
+				  </div>
+					<div class="row">
 					<h2>Yanni Paul</h2>
+				  </div>
+					<div class="row">
 					<p>A Place For Those With Too Many Interests</p>
-					<br>
+				  </div>
+					<div class="row">
 					<a class="btn btn-default btn-lg" href="https://yannipaul.com" role="button">View Site</a>
+				</div>
+				<div class="row">
 					<a class="btn btn-default btn-lg" href="https://github.com/glenak1911/Yannipaul" role="button">View Code</a>
+				</div>
 				</div>
 				<p><a class="topPage" href="#"mainHero>Top</a></p>
 			</div>
