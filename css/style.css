@@ -73,30 +73,6 @@ h1{
   margin:0px;
 }
 
-.typewriter h1 {
-  color: #fff;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation:
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
-}
-
 .navbar{
   margin-bottom:0px;
 }
@@ -164,9 +140,34 @@ h1.glenName{
 	width:100%;
 	color:#000;
 	position:relative;
+  display: flex;
 	left:50px;
 	font-size:25px;
 	font-family: Times New Yorker;
+}
+
+.typewriter h1 {
+  color: #fff;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
 }
 
 .socialMedia {
@@ -314,15 +315,6 @@ legend{
 		text-decoration:none;
 	}
 
-	.glenTagLine{
-		width:100%;
-		color:#FFF;
-		position:relative;
-		text-align:center;
-		font-size:20px;
-		left:0px;
-		font-family: Times New Yorker;
-	}
 	.jumbotron{
 	  background: url(../img/jTrain.jpg);
 	  padding:0px;
