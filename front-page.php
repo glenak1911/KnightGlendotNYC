@@ -10,7 +10,7 @@
 			<div class="bodyContent">
 				<h1 id="About">About</h1>
 				<img id="myPhoto" src="<?php echo get_bloginfo('template_directory'); ?>/img/me.jpg" />
-				<p><?php the_author_meta( 'description' ); ?> </p>
+				<p><?php the_author_meta( 'description', 'glenak1911' ); ?> </p>
 				<p><a class="topPage" href="#"mainHero>Top</a></p>
 			</div>
 			<div class="portfolioContent">
