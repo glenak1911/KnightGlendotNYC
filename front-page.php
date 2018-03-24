@@ -26,7 +26,7 @@
 				<h1 id="Portfolio">Portfolio</h1>
 				<div class="col-md-4 ">
 					   <img src="<?php echo get_bloginfo('template_directory'); ?>/img/gamma.png" alt="Portfolio Item" class="portfolioItem">
-					    <h2>Gamma:Photo Sharing App</h2>
+					    <h2>Gamma</h2>
 					    <p>A demo site for a ficticious photo sharing app.</p>
 					    <a class="btn btn-default btn-lg" href="<?php echo get_bloginfo('template_directory'); ?>/photoAppSite/index.html" role="button">View Site</a>
 					    <a class="btn btn-default btn-lg" href="https://github.com/glenak1911/photoAppSite" role="button">View Code</a>
