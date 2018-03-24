@@ -10,7 +10,11 @@
 			<div class="bodyContent">
 				<h1 id="About">About</h1>
 				<img id="myPhoto" src="<?php echo get_bloginfo('template_directory'); ?>/img/me.jpg" />
-				<p><?php the_author_meta( 'description', 'glenak1911' ); ?> </p>
+				<p><?php the_author_meta( 'description' ); ?> </p>
+				<p>Glen Knight here, IT Professional based in Brooklyn, New York.</p>
+				<p>I graduated from Florida International University in 2013, with a Bachelor's Degree in Information Technology. I pursued a career in IT because of a love for technology, and a driving sense of curiosity to figure out how things work, and build cool things for the benefit of others and myself.</p>
+				<p>This site and blog are meant to function as a portfolio, as well as document my thought processes as I move deeper into the world of tech. I primarily work in the world of DevOps and Web Development, which are my primary areas of interest. I am also interested in IoT and developing on the Raspberry PI and Arduino platforms as well.</p>
+				<p>My hope is that as I deepen my understanding, and experiment with different projects, others on the same path can benefit from my findings and experiences.</p>
 				<p><a class="topPage" href="#"mainHero>Top</a></p>
 			</div>
 			<div class="portfolioContent">
