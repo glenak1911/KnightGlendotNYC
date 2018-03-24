@@ -32,7 +32,7 @@
 						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/#Portfolio">Portfolio</a></li>
 						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/#Services">Services</a></li>
 						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/blog">Blog</a></li>
-						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/GlenKnight_Resume2018.pdf">Resume</a></li>
+						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo('template_directory'); ?>/GlenKnight_Resume2018.pdf">Resume</a></li>
 					</ul>
 
 				</div>
