@@ -28,6 +28,7 @@
 				</div>
 				<div id="bs-example-navbar-collapse-1" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
+						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>">Home</a></li>
 						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/#About">About</a></li>
 						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/#Portfolio">Portfolio</a></li>
 						<li class="navigationItem"><a class ="navLink" href="<?php echo get_bloginfo( 'wpurl' );?>/#Services">Services</a></li>
