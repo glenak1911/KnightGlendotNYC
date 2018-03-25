@@ -35,6 +35,7 @@
 					<a class="btn btn-default btn-lg" href="https://github.com/glenak1911/Yannipaul" role="button">View Code</a>
 				</div>
 				</div>
+				<br>
 				<p><a class="topPage" href="#"mainHero>Top</a></p>
 			</div>
 			<div class="servicesContent">
@@ -42,7 +43,7 @@
 				<h1 id="Skillset">Services</h1>
 				<br>
 				<h2>What I Do</h2>
-				<p>I work as sort of a jack of all trades. I have experience working on the infrastructure side, as well as the development side, and also in the middle coordinating and minimizing bottlenecks between both sides.</p>
+				<p>I work as a jack of all trades in the IT industry. I have experience working on the infrastructure side, as well as the development side, and also in the middle coordinating and minimizing bottlenecks between both sides.</p>
 				<p>I enjoy doing development work, and a goal for this year is to contribute more to open source projects. I have enjoy working with cloud based technology, especially Amazon Web Services. I have obtained the associate level certificates and plan to sit the professional level exams within the next year.</p>
 				<p>In the meantime, I plan to continue studying, and to continue getting better.</p>
 				<br>

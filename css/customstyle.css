@@ -97,6 +97,14 @@ h1{
   padding: 10px;
 }
 
+.blog-post-title{
+  font-family: 'ToxTypewriter';
+}
+
+.blog-post-title:hover{
+  text-decoration: none;
+}
+
 .portfolioContent{
   padding:50px 50px;
   text-align:center;
@@ -126,6 +134,10 @@ h1{
 
 #searchsubmit{
   color: #000;
+}
+
+.searchBox{
+  text:#000;
 }
 
 h1.glenName{

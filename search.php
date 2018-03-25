@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div class="blog-main">
         <section id="primary" class="content-area">
             <div id="content" class="site-content" role="main">
 
@@ -24,6 +24,5 @@
 
             </div><!-- #content .site-content -->
         </section><!-- #primary .content-area -->
-
-<?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>
