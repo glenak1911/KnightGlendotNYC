@@ -97,12 +97,16 @@ h1{
   padding: 10px;
 }
 
-.blog-post-title{
+h2.blog-post-title{
   font-family: 'ToxTypewriter';
 }
 
-.blog-post-title:hover{
+a:hover{
   text-decoration: none;
+}
+
+#s{
+  color: #000;
 }
 
 .portfolioContent{
