@@ -42,25 +42,42 @@
 				<h1 id="Services">Services</h1>
 				<br>
 				<h2>What I Do</h2>
-				<p>I aim to create rich and robust desktop, server side, and web applications that are aesthetically appealing, solidly constructed, and intiuitive to use.</p>
-				<p>There are many elements to consider in order to effecively run a business, and we cannot deny the importance of having an online presence. This is true across all industries, whether you are a designer, writer, mechanic, musician, etc.</p>
-				<p>Let's chat and discuss your needs. I am based in New York City, but I am willing to work remotely as well.</p>
+				<p>I work as sort of a jack of all trades. I have experience working on the infrastructure side, as well as the development side, and also in the middle coordinating and minimizing bottlenecks between both sides.</p>
+				<p>I enjoy doing development work, and a goal for this year is to contribute more to open source projects. I have enjoy working with cloud based technology, especially Amazon Web Services. I have obtained the associate level certificates and plan to sit the professional level exams within the next year.</p>
+				<p>In the meantime, I plan to continue studying, and to continue getting better.</p>
 				<br>
-				<h2>Technologies Utilized</h2>
-				<ul id="serviceList">
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Javascript</li>
-					<li>Bootstrap</li>
-					<li>Node.js</li>
-					<li>AngularJS</li>
-					<li>ExpressJS</li>
-					<li>JQuery</li>
-					<li>Relational/NoSQL DB</li>
-					<li>Java</li>
-					<li>Python</li>
-					<li>WordPress</li>
-				</ul>
+				<h2>Skills Inventory</h2>
+				<div class="row">
+					<div class="col-md-4">
+						<h3>Platforms</h3>
+						<ul id="serviceList">
+							<li>Amazon Web Services</li>
+							<li>Wordpress</li>
+							<li>Databases(MSSQL/MySql)</li>
+						</ul>
+			    </div>
+					<div class="col-md-4">
+						<h3>Languages</h3>
+						<ul id="serviceList">
+							<li>HTML/CSS</li>
+							<li>Python</li>
+		          <li>Ruby</li>
+							<li>Javascript</li>
+							<li>Java</li>
+							<li>SQL</li>
+						</ul>
+			    </div>
+					<div class="col-md-4">
+						<h3>Frameworks</h3>
+						<ul id="serviceList">
+							<li>Bootstrap</li>
+							<li>AngularJS</li>
+							<li>ExpressJS</li>
+							<li>JQuery</li>
+							<li>Node.js</li>
+						</ul>
+			    </div>
+			</div>
 			<p><a class="topPage" href="#"mainHero>Top</a></p>
 			</div>
 <?php get_footer(); ?>
