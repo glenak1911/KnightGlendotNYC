@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: 'Times New Yorker';
-  src: url(../fonts/times_new_yorker.ttf);
+  font-family: 'Tox Typewriter';
+  src: url(../fonts/ToxTypewriter.ttf);
 }
 
 @font-face {
@@ -150,7 +150,7 @@ h1.glenName{
   display: flex;
 	left:50px;
 	font-size:25px;
-	font-family: Times New Yorker;
+	font-family: Tox Typewriter;
 }
 
 .typewriter h1 {
