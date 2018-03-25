@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<div class="row">
+	<div class="row blog-main">
 		<div class="col-sm-12">
 
 			<?php
