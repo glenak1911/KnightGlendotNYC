@@ -320,12 +320,13 @@ legend{
 	}
 
 	.glenTagLine{
-		width:100%;
+		width:50%;
 		color:#FFF;
 		position:relative;
 		text-align:center;
 		font-size:20px;
 		left:0px;
+    float:right;
 	}
 
   .blog-sidebar{
