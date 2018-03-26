@@ -1,7 +1,7 @@
 <?php if ( post_password_required() ) {
 	return;
 } ?>
-	<div id="comments" class="comments-area">
+	<div id="comments" class="col-md-12 comments-area">
 		<?php if ( have_comments() ) : ?>
 			<h3 class="comments-title">
 				<?php
@@ -23,5 +23,5 @@
 				<?php _e( 'Comments are closed.' ); ?>
 			</p>
 		<?php endif; ?>
-		<?php comment_form(); ?>
+		<?php comment_form(array('comment_notes_before'=>'Your email address will not be published. Required fields as marked *.')); ?>
 	</div>
