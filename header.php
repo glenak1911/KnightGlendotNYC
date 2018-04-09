@@ -39,3 +39,11 @@
 				</div>
 			</div>
 		</nav>
+		<div class="jumbotron">
+			<div class="container">
+				<div class="col-md-6">
+						<h1 class="glenName"><?php echo get_bloginfo( 'name' ); ?></h1>
+						<h2 class="glenTagLine typewriter"><?php echo get_bloginfo( 'description' ); ?></h2>
+				</div>
+			</div>
+		</div>

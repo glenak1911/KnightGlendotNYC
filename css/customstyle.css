@@ -233,6 +233,17 @@ nav{
 	background-color:#4CAF50;
 }
 
+.read-more {
+    background-color: white;
+    color: #800000;
+    border: 2px solid #800000;
+}
+
+.read-more:hover {
+    background-color: #800000;
+    color: white;
+}
+
 #serviceList{
 	list-style-type:none;
 	padding:0;

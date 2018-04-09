@@ -1,12 +1,4 @@
 <?php get_header(); ?>
-		<div class="jumbotron">
-			<div class="container">
-				<div class="col-md-6">
-						<h1 class="glenName"><?php echo get_bloginfo( 'name' ); ?></h1>
-						<h2 class="glenTagLine typewriter"><?php echo get_bloginfo( 'description' ); ?></h2>
-				</div>
-			</div>
-		</div>
 			<div class="bodyContent">
 				<h1 id="About">About</h1>
 				<img id="myPhoto" src="<?php echo get_bloginfo('template_directory'); ?>/img/me.jpg" />
