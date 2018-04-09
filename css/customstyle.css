@@ -233,13 +233,14 @@ nav{
 	background-color:#4CAF50;
 }
 
-.read-more {
+.page-btn {
     background-color: white;
     color: #800000;
-    border: 2px solid #800000;
+    border: 1px solid #800000;
+    padding: 5px;
 }
 
-.read-more:hover {
+.page-btn:hover {
     background-color: #800000;
     color: white;
 }

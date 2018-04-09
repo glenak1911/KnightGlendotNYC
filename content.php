@@ -8,6 +8,8 @@
 	<?php
 	printf( _nx( 'One Comment', '%1$s Comments', get_comments_number(), 'comments title', 'textdomain' ), number_format_i18n( 						get_comments_number() ) ); ?>
 </a>
-<a href="<?php the_permalink(); ?>"><btn class="read-more">Read More</btn></a>
+<a href="<?php the_permalink(); ?>">
+<br />
+<btn class="page-btn">Read More</btn></a>
 <hr />
 </div><!-- /.blog-post -->
