@@ -4,12 +4,6 @@ function startwordpress_scripts() {
     wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/scripts/bootstrap.js', array( 'jquery' ), '3.3.6', true );
     wp_enqueue_style( 'customStyle', get_template_directory_uri() . '/css/customstyle.css' );
     wp_enqueue_script( 'smoothScroll', get_template_directory_uri() . '/scripts/smoothScroll.js', array(), '0.0.1', true );
-
 }
-
 add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
-
-
-
-
  ?>

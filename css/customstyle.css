@@ -107,6 +107,7 @@ a:hover{
 
 #s{
   color: #000;
+  text:  #000;
 }
 
 .portfolioContent{
@@ -143,10 +144,6 @@ ul.comment-list{
 
 #searchsubmit{
   color: #000;
-}
-
-.searchBox{
-  text:#000;
 }
 
 h1.glenName{
