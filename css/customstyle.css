@@ -238,6 +238,7 @@ nav{
     color: #800000;
     border: 1px solid #800000;
     padding: 5px;
+    margin-top: 5px;
 }
 
 .page-btn:hover {
