@@ -10,6 +10,7 @@
 </a>
 <a href="<?php the_permalink(); ?>">
 <br />
+<br />
 <btn class="page-btn">Read More</btn></a>
 <hr />
 </div><!-- /.blog-post -->
