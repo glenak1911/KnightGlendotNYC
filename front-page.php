@@ -24,15 +24,15 @@
 					   <img src="<?php echo get_bloginfo('template_directory'); ?>/img/gamma.png" alt="Portfolio Item" class="portfolioItem">
 					    <h2>Gamma</h2>
 					    <p>A demo site for a ficticious photo sharing app.</p>
-					    <a class="btn btn-default btn-lg" href="<?php echo get_bloginfo('template_directory'); ?>/photoAppSite/index.html" role="button">View Site</a>
-					    <a class="btn btn-default btn-lg" href="https://github.com/glenak1911/photoAppSite" role="button">View Code</a>
+					    <a class="btn btn-default btn-lg portfolio-btn" href="<?php echo get_bloginfo('template_directory'); ?>/photoAppSite/index.html" role="button">View Site</a>
+					    <a class="btn btn-default btn-lg portfolio-btn" href="https://github.com/glenak1911/photoAppSite" role="button">View Code</a>
 				</div>
 				<div class="col-md-4">
 					<img src="<?php echo get_bloginfo('template_directory'); ?>/img/yannipaul.png" alt="Portfolio Item" class="portfolioItem">
 					<h2>Yanni Paul</h2>
 					<p>A Place For Those With Too Many Interests</p>
-					<a class="btn btn-default btn-lg" href="https://yannipaul.com" role="button">View Site</a>
-					<a class="btn btn-default btn-lg" href="https://github.com/glenak1911/Yannipaul" role="button">View Code</a>
+					<a class="btn btn-default btn-lg portfolio-btn" href="https://yannipaul.com" role="button">View Site</a>
+					<a class="btn btn-default btn-lg portfolio-btn" href="https://github.com/glenak1911/Yannipaul" role="button">View Code</a>
 				</div>
 				</div>
 				<br>
@@ -40,7 +40,7 @@
 			</div>
 			<div class="servicesContent">
 				<hr />
-				<h1 id="Skillset">Services</h1>
+				<h1 id="Skillset">Skillset</h1>
 				<br>
 				<h2>What I Do</h2>
 				<p>I work as a jack of all trades in the IT industry. I have experience working on the infrastructure side, as well as the development side, and also in the middle coordinating and minimizing bottlenecks between both sides.</p>

@@ -269,7 +269,7 @@ legend{
 }
 
 .portfolioItem{
-	width:100px;
+	width:160px;
   height: 110px;
 }
 
@@ -319,6 +319,10 @@ legend{
 		transform: rotate(0deg);
 		text-decoration:none;
 	}
+
+  .portfolio-btn{
+    margin: 0px 5px;
+  }
 
 	.glenTagLine{
 		width:50%;
