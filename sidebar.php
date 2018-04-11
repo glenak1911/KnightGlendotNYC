@@ -8,7 +8,7 @@
   <div class="sidebar-module">
     <h4>Categories</h4>
     <ol class="list-unstyled">
-	      <?php wp_list_categories(); ?>
+	      <?php wp_list_categories($args = array('title_li'=>'')); ?>
     </ol>
   </div>
 </div><!-- /.blog-sidebar -->
