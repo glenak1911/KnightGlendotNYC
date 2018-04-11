@@ -5,4 +5,10 @@
 	      <?php wp_get_archives( 'type=monthly' ); ?>
     </ol>
   </div>
+  <div class="sidebar-module">
+    <h4>Categories</h4>
+    <ol class="list-unstyled">
+	      <?php wp_list_categories(); ?>
+    </ol>
+  </div>
 </div><!-- /.blog-sidebar -->
