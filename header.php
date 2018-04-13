@@ -14,6 +14,7 @@
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<?php wp_head(); ?>
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
