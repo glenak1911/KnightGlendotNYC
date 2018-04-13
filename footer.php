@@ -1,3 +1,4 @@
+<?php wp_footer(); ?>
 <footer class="footer footerContainer">
   <div id="footer" class="container">
       <div class="socialMedia">
