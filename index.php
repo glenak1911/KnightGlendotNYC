@@ -11,4 +11,10 @@
 			</div> <!-- /.blog-main -->
 		<?php get_sidebar(); ?>
 	</div> <!-- /.row -->
+	<nav>
+		<ul class="pager">
+			<li><?php next_posts_link( 'Older' ); ?></li>
+			<li><?php previous_posts_link( 'Newer' ); ?></li>
+		</ul>
+	</nav>
 <?php get_footer(); ?>
